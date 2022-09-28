@@ -1,7 +1,7 @@
 import express from "express";
 import Character from "../model/Character.js";
-// import * as dotenv from "dotenv";
-// dotenv.config();
+import * as dotenv from "dotenv";
+dotenv.config();
 
 const router = express.Router();
 
@@ -120,8 +120,7 @@ router.patch("/update/:id", async (req, res) => {
 
 // ? Delete by ID Method
 router.delete("/delete/:id", (req, res) => {
-  const check = "1237" === req.headers.psw;
-  // const check = process.env.POST_PASSWORD === req.headers.psw;
+  const check = process.env.POST_PASSWORD === req.headers.psw;
   //?only thing that returns me something
   // console.log(req.headers);
   // console.log("headers \n", req.headers.head);

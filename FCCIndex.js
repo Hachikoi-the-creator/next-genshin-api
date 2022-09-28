@@ -1,14 +1,12 @@
-// import * as dotenv from "dotenv";
-// dotenv.config();
+import * as dotenv from "dotenv";
+dotenv.config();
 import mongoose from "mongoose";
 import express from "express";
 import routesIndex from "./routes/routesIndex.js";
 
 // ! MONGOOSE stuff
 // Connect to BD
-mongoose.connect(
-  "mongodb+srv://alice-dev:NOx9i1PnpnSY6ajS@genshin-api-mango.p7cm974.mongodb.net/genshin-data"
-);
+mongoose.connect(process.env.MANGO_CONNECTION_STRING);
 const database = mongoose.connection;
 
 //? mongoose's error handler

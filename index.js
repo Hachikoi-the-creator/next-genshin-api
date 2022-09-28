@@ -1,5 +1,5 @@
-// import * as dotenv from "dotenv";
-// dotenv.config();
+import * as dotenv from "dotenv";
+dotenv.config();
 import mongoose from "mongoose";
 import CharacterModel from "./model/Character.js";
 import InazumaCharacters from "./characters/Inazuma.js";
@@ -8,7 +8,7 @@ import MondstadtCharacters from "./characters/Mondstadt.js";
 import SumeruCharacters from "./characters/Sumeru.js";
 
 // Mango acc vip.hd
-// mongoose.connect(process.env.MANGO_CONNECTION_STRING);
+mongoose.connect(process.env.MANGO_CONNECTION_STRING);
 
 // String.prototype.capitalize = function () {
 //   return this.split` `.map((e) => e[0].toUpperCase() + e.slice(1)).join` `;
