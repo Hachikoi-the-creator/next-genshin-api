@@ -8,9 +8,7 @@ import MondstadtCharacters from "./characters/Mondstadt.js";
 import SumeruCharacters from "./characters/Sumeru.js";
 
 // Mango acc vip.hd
-mongoose.connect(
-  "mongodb+srv://alice-dev:NOx9i1PnpnSY6ajS@genshin-api-mango.p7cm974.mongodb.net/genshin-data"
-);
+mongoose.connect(process.env.MANGO_CONNECTION_STRING);
 
 // String.prototype.capitalize = function () {
 //   return this.split` `.map((e) => e[0].toUpperCase() + e.slice(1)).join` `;
