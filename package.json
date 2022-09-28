@@ -9,7 +9,7 @@
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "8koi",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.0.2",
@@ -18,5 +18,8 @@
   "dependencies": {
     "express": "^4.18.1",
     "mongoose": "^6.6.2"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
