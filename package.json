@@ -1,22 +1,22 @@
 {
-  "name": "next-genshin-api",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mongoosedocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "nodemon index.js",
+    "start": "node FCCIndex.js"
   },
-  "dependencies": {
-    "mongodb": "^4.10.0",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.0.2",
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
   }
 }
