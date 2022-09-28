@@ -23,8 +23,8 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(3000, () => {
-  console.log(`Server Started at ${3000}`);
+app.listen(5000, () => {
+  console.log(`Server Started at ${5000}`);
 });
 
 // start all our endpoints whit /api

@@ -4,47 +4,50 @@
 
 ### link/api/charaName/:Name
 - Get a sigle character, by name **Pascal Case**
-- example : `/Diluc`
+- examples:
+- `api/charaName/Hu Tao`
+- `api/charaName/Jean`
+- `api/charaName/Raiden Shogun`
 
 
 ### link/api/charaElement/:Element
 - get all characters from a certain element **Pascal Case**
 - Valid options :
-  - `/Anemo`
-  - `/Geo`
-  - `/Pyro`
-  - `/Hydro`
-  - `/Electro`
-  - `/Dendro`
+  - `api/charaElement/Anemo`
+  - `api/charaElement/Geo`
+  - `api/charaElement/Pyro`
+  - `api/charaElement/Hydro`
+  - `api/charaElement/Electro`
+  - `api/charaElement/Dendro`
 
 
 ### link/api/charaNation/:Nation
 - get all characters from a certain nation **Pascal Case**
 - valid options
-  - `/Sumeru`
-  - `/Mondstadt`
-  - `/Liyue`
-  - `/Inazuma`
+  - `api/charaNation/Sumeru`
+  - `api/charaNation/Mondstadt`
+  - `api/charaNation/Liyue`
+  - `api/charaNation/Inazuma`
 
 
 ### link/api/charaWeapon/:Weapon
 - get all characters from a certain nation **Pascal Case**
 - valid options
-  - `/Catalyst`
-  - `/Sword`
-  - `/Bow`
-  - `/Sword`
-  - `/Greatsword`
-  - `/Polearn`
+  - `api/charaWeapon/Catalyst`
+  - `api/charaWeapon/Sword`
+  - `api/charaWeapon/Bow`
+  - `api/charaWeapon/Sword`
+  - `api/charaWeapon/Greatsword`
+  - `api/charaWeapon/Polearn`
 
 
 ### link/api/charaNationElement/:Nation/:Element
 - get all characters from a certain nation **Pascal Case**
 - valid combinations **Order Matters**
-  - `/Sumeru/Sword`
-  - `/Mondstadt/Catalyst`
-  - `/Liyue/Greatsword`
-  - `/Inazuma/Polearn`
+  - `api/charaNationElement/Sumeru/Sword`
+  - `api/charaNationElement/Mondstadt/Catalyst`
+  - `api/charaNationElement/Liyue/Greatsword`
+  - `api/charaNationElement/Inazuma/Polearn`
 
 
 ## Lore src
